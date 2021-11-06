@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply in JooSoft Inc.</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="parallax"></div>
+    <div class="bg-image"></div>
+    <main>
+        <form action="" id="survey-form">
+            <div class="form-header">
+                <h1 id="title">Welcome to JooSoft Inc. Job Portal</h1>
+                <p id="description">Get connected with one of best workplace in country</p>
+            </div>
+            <div class="form-body">
+                <div class="input-field">
+                    <label for="name" id="name-label">Name <sup>*</sup></label>
+                    <input type="text" id="name" placeholder="e.g. Abdul Hasan" required>
+                </div>
+                <div class="input-field">
+                    <label for="email" id="email-label">Email <sup>*</sup></label>
+                    <input type="email" id="email" placeholder="e.g. xyz@company.com" required>
+                </div>
+                <div class="input-field">
+                    <label for="number" id="number-label">Contact Number</label>
+                    <input type="number" id="number" placeholder="e.g. 01312345678" min="01300000000" max="01999999990">
+                </div>
+                <div class="input-field">
+                    <label for="dropdown">What are you applying for</label>
+                    <select id="dropdown" name="position">
+                        <option value="mid-frontend">Mid Frontend Developer</option>
+                        <option value="business-analyst">Business Analyst</option>
+                        <option value="sr-flutter">Sr Flutter Developer</option>
+                        <option value="jr-backend">Jr Backend Developer</option>
+                    </select>
+                </div>
+                <div class="input-field radio-div">
+                    <p>How did you find us -</p>
+                    <div>
+                        <label for="linkedin" class="radio">
+                            <input type="radio" name="position" id="linkedin" value="LinkedIn">
+                            LinkedIn
+                            <span></span>
+                        </label>
+                        <label for="indeed" class="radio">
+                            <input type="radio" name="position" id="indeed" value="Indeed">
+                            Indeed
+                            <span></span>
+                        </label>
+                        <label for="bdjobs" class="radio">
+                            <input type="radio" name="position" id="bdjobs" value="BDJobs">
+                            BDJobs
+                            <span></span>
+                        </label>
+                        <label for="our-career-page" class="radio">
+                            <input type="radio" name="position" id="our-career-page" value="OurCareerPage">
+                            Our Career Page
+                            <span></span>
+                        </label>
+                        <label for="other-source" class="radio">
+                            <input type="radio" name="position" id="other-source" value="OtherSource">
+                            Other Source
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-field checkbox-div">
+                    <p>What are your key skills -</p>
+                    <div>
+                        <label for="html-css-js" class="checkbox">
+                            <input type="checkbox" name="skills" id="html-css-js" value="html-css-js">
+                            HTML/CSS/JS
+                            <span></span>
+                        </label>
+                        <label for="reactjs" class="checkbox">
+                            <input type="checkbox" name="skills" id="reactjs" value="reactjs">
+                            ReactJS
+                            <span></span>
+                        </label>
+                        <label for="react-native" class="checkbox">
+                            <input type="checkbox" name="skills" id="react-native" value="react-native">
+                            React Native
+                            <span></span>
+                        </label>
+                        <label for="angular" class="checkbox">
+                            <input type="checkbox" name="skills" id="angular" value="angular">
+                            Angular
+                            <span></span>
+                        </label>
+                        <label for="laravel" class=" checkbox">
+                            <input type="checkbox" name="skills" id="laravel" value="laravel">
+                            Laravel
+                            <span></span>
+                        </label>
+                        <label for="django" class="checkbox">
+                            <input type="checkbox" name="skills" id="django" value="django">
+                            Django
+                            <span></span>
+                        </label>
+                        <label for="dart-flutter" class="checkbox">
+                            <input type="checkbox" name="skills" id="dart-flutter" value="dart-flutter">
+                            Dart, Flutter
+                            <span></span>
+                        </label>
+                        <label for="sql" class="checkbox">
+                            <input type="checkbox" name="skills" id="sql" value="sql">
+                            SQL
+                            <span></span>
+                        </label>
+                        <label for="project-management" class="checkbox">
+                            <input type="checkbox" name="skills" id="project-management" value="project-management">
+                            Project Management
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label for="message">Any message?</label>
+                    <textarea id="message" name="message" rows="1" placeholder="Your message">
+                    </textarea>
+                </div>
+                <div class="input-field">
+                    <label for="cv">Upload your CV</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf">
+                </div>
+                <button id="submit" class="input-field">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
